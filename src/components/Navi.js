@@ -19,7 +19,6 @@ class Navi extends Component {
                     color="light"
                     expand="md"
                     light
-                    fluid
                 >
                     <NavbarBrand href="/">
                         reactstrap
@@ -50,7 +49,7 @@ class Navi extends Component {
                                 >
                                     Options
                                 </DropdownToggle>
-                                <DropdownMenu right>
+                                <DropdownMenu >
                                     <DropdownItem>
                                         Option 1
                                     </DropdownItem>
